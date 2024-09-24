@@ -38,7 +38,8 @@ Q:8)ANSWER: select co2_consumed from game where screen_name = "Ilkka";
 Q:9)ANSWER: select distinct co2_budget from game;
 <img width="366" alt="w3e9" src="https://github.com/user-attachments/assets/a7e5c34f-47ae-4272-9ca6-381121d8bd7c">
 
-Q:10)ANSWER: 
+Q:10)ANSWER: ![image](https://github.com/user-attachments/assets/6339c1e5-8391-43d9-83c2-14d9ed8a8165)
+
 
 **EXERCISE:3) MULTIPLE TABLE QUERY**
 Q:1) ANSWER= select country.name as "country name", airport.name as "airport name"
