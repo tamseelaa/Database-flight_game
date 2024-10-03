@@ -11,9 +11,9 @@ Q:1)ANSWER : select * from goal;
 <img width="636" alt="w3e1" src="https://github.com/user-attachments/assets/1f5ab892-8759-4f53-8a61-9fc7269df518">
 
 
-Q:2)ANSWER: select name from airport where iso_country = "FI";
-![image](https://github.com/user-attachments/assets/5706a447-9c75-45af-bb1d-814e2ea87619)
-<img width="262" alt="w3e2 1" src="https://github.com/user-attachments/assets/5596298d-5289-44e9-9a4f-88e76536ac82">
+Q:2)ANSWER: select name,type from airport where iso_country = "FI";
+![Screenshot (266)](https://github.com/user-attachments/assets/633f5a2b-93df-40fe-b7fa-0195c0fdbc50)
+
 
 Q:3)ANSWER: select name from airport where iso_country = "FI" order by name;
 ![Screenshot (172)](https://github.com/user-attachments/assets/b7cf948a-176c-4ed7-89d0-b46cbaf627c5)
@@ -35,10 +35,12 @@ Q:7)ANSWER: select location from game where screen_name = "Vesa";
 Q:8)ANSWER: select co2_consumed from game where screen_name = "Ilkka";
 <img width="459" alt="w3e8" src="https://github.com/user-attachments/assets/16f64786-68ce-427f-9f7c-d49843d5c6e8">
 
-Q:9)ANSWER: select distinct co2_budget from game;
-<img width="366" alt="w3e9" src="https://github.com/user-attachments/assets/a7e5c34f-47ae-4272-9ca6-381121d8bd7c">
+Q:9)ANSWER: select distinct co2_budget from game; (AND CAN ALSO BE) select co2_budget from game limit 1;
+![image](https://github.com/user-attachments/assets/f551c660-e899-4562-91cc-af4fdf2cb02c)
 
-Q:10)ANSWER: ![image](https://github.com/user-attachments/assets/6339c1e5-8391-43d9-83c2-14d9ed8a8165)
+Q:10)ANSWER:select screen_name, co2_budget, co2_consumed,(co2_budget - co2_consumed) as co2_left from game where screen_name="Ilkka";
+
+![image](https://github.com/user-attachments/assets/11aa1b73-282c-4b39-a315-95ce794ecb36)
 
 
 **EXERCISE:3) MULTIPLE TABLE QUERY**
